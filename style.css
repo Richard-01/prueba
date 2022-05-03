@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background: rgb(242, 242, 242);
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px 1px rgb(226, 226, 226);
+}
+
+.line{
+    border: gray solid 2px;
+    border-radius: 15px;
+    background: white;
+}
+
+.alert{
+    overflow-y: scroll;
+    width: 370px;
+    height: 100px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        width:540px;
+    }
+}
